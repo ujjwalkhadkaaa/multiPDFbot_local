@@ -255,4 +255,4 @@ if api_key:
         st.session_state.chat_history = []
         st.rerun()
 else:
-    st.warning("Please set your OpenAI API key in the .env file to proceed.")
+    st.warning("Please set your OpenAI API key in the .env file to proceed with changed.")
